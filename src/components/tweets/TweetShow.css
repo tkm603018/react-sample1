@@ -1,0 +1,17 @@
+.tweetShowMain {
+  /* margin-top: 50px; */
+  margin: 1% auto;
+  width: 97%;
+}
+
+.tweetShow {
+  border-bottom: solid #aaa 1px;
+}
+
+.tweetShow p.desc {
+  white-space:pre-wrap;
+}
+
+.createdAt {
+  text-align: right;
+}

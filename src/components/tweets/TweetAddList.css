@@ -1,0 +1,9 @@
+.tweetAddList-main {
+  margin-top: 50px;
+  margin-left: 0px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.tweetAddList p.desc {
+  white-space:pre-wrap;
+}

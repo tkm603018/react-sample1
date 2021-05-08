@@ -1,0 +1,41 @@
+.App {
+  margin: 0 auto;
+  min-width: 630px;
+  width: 100%;
+  height: auto;
+}
+
+.TemporaryDrawer{
+  text-align: right;
+}
+
+.TemporaryDrawer .Icon {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.TemporaryDrawer .Icon div {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 25px;
+  background-color: #444;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.TemporaryDrawer .Icon div:nth-of-type(1) {
+  top: 0;
+}
+.TemporaryDrawer .Icon div:nth-of-type(2) {
+  top: 10px;
+}
+.TemporaryDrawer .Icon div:nth-of-type(3) {
+  bottom: 0;
+}
+
+.LinkMain {
+  text-align: center;
+}

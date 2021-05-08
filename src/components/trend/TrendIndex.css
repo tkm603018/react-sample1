@@ -1,0 +1,65 @@
+.TrendIndexMain {
+  margin: 3% auto;
+  /* border-top: 1px solid #ccc; */
+  width: 100%;
+  height: auto;
+  color: #000;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.top {
+  display: block;
+  /* text-align: center; */
+}
+div.middle {
+  display: block;
+  text-align: left;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.frame {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  text-align: initial;
+  padding-right: 0.2%;
+  padding-bottom: 1%;
+}
+.TrendIndex {
+  border:solid #aaa 1px;
+  padding: 2%;
+}
+.image {
+  height: auto;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  padding: 0;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.desc {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height:1.25rem;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.createdAt {
+  color: #666;
+  font-size: 0.8rem;
+}

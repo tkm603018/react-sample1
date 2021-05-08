@@ -1,0 +1,53 @@
+.FooterMain {
+  margin: 10% auto;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  color: #000;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.top {
+  display: block;
+  text-align: center;
+}
+div.middle {
+  display: block;
+  text-align: center;
+}
+.frame {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  text-align: initial;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.frameTitle {
+  border-bottom: 1px solid #333;
+}
+.iconList {
+  width: 20vw;
+}
+.icon {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mainicon {
+  position: relative;
+  vertical-align: middle;
+}
+.mailadress {
+  margin-left: 4%;
+}
+.footer{
+  margin: 3% auto;
+  width: 100%;
+  text-align: center;
+  opacity: .5;
+}

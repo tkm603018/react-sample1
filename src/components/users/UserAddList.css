@@ -1,0 +1,9 @@
+.userAddList-main {
+  margin-top: 50px;
+  margin-left: 0px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.userAddList p.desc {
+  white-space:pre-wrap;
+}

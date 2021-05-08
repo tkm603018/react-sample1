@@ -1,0 +1,12 @@
+.userAdd-main {
+  z-index: 500;
+  margin-left: 50px;
+}
+.userAdd-form-textarea {
+  margin-top: 30px;
+}
+
+.tweetAdd-form-button .button {
+  margin-top: 30px;
+  z-index: 500;
+}

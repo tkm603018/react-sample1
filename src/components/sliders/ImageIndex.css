@@ -1,0 +1,105 @@
+.ImageIndex{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+.MainImage {
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  background: #000;
+}
+.viewer {
+  display: flex;
+  overflow-x: visible;
+  display: block;
+  height: 45vh;
+  width: 100%;
+  /* padding-bottom: 100%; */
+}
+.buttonLeft {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -20px;
+  margin-left: 1.2rem;
+  color: #000;
+  width: 35px;
+  height: 35px;
+  border-style: none;
+  border-radius: 100%;
+  vertical-align: middle;
+  font-size: 1.3rem;
+  z-index: 200;
+}
+.buttonLeft::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: solid 0.14rem #666;
+  border-right: solid 0.14rem #666;
+  transform: rotate(-135deg);
+  position: absolute;
+  top: 34%;
+  left: 38%;
+  opacity: 0.8;
+}
+.buttonRight {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -20px;
+  margin-right: 1.2rem;
+  color: #000;
+  width: 35px;
+  height: 35px;
+  border-style: none;
+  border-radius: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 1.2rem;
+  z-index: 200;
+}
+.buttonRight::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: solid 0.15rem #666;
+  border-right: solid 0.15rem #666;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 34%;
+  left: 26%;
+  opacity: 0.8;
+}
+
+/* .thumbnails {
+  margin: 0 auto;
+  text-align: center;
+  background: #444;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.thumbnails div{
+  border-color: #444;
+  margin: 0 auto;
+  min-width: 60%;
+}
+.thumbnails div li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+  border-color: #333333;
+}
+.thumbnails div li img {
+  max-width: 4rem;
+  cursor: pointer;
+  padding-left: 6px;
+  padding-right: 6px;
+  vertical-align: middle;
+} */
+
